@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    /* width: 100%; */
+    /* float: left; */
+    width: 100%;
+    height: 100vh;
+    background: none;
+
+}
+.title{
+    width: 100%;
+    height: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    /* border: solid black 3px; */
+}
+.skills_container{
+    height: 470px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* border: solid aqua 2px; */
+}
+.skills_container .skills{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 5% 10% 5%;
+    /* border: solid aqua 2px; */
+}
+.items{
+    width: 90%;
+    /* background: aqua; */
+}
+.items:hover{
+    background: orangered;
+    
+}
+.items .lng{
+    color: black;
+    font-weight: 00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.items .progressbar{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 20px;
+    border: solid rgba(0, 0, 0, 0.144) 2px;
+    padding: 1px;
+    border-radius: 10px;
+}
+.items .progressbar .progress{
+    width: 60%;
+    height: 100%;
+    background: crimson;
+    border-radius: 7px;
+}
+#python .progress{
+    width: 60%;
+}
+#html .progress{
+    width: 75%;
+}
+#css .progress{
+    width: 80%;
+}
+#react .progress{
+    width: 50%;
+}
+#js .progress{
+    width: 30%;
+}
+
+
+
+/* .skills_container .achievements{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10%;
+    border: solid aqua 2px;
+} */

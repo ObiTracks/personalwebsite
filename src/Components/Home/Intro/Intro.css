@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
+.overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../../static/mainbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .overlay .overlay_wash{
+    height: 100%;
+    width: 75%;
+    background: rgba(255, 255, 255, 0.479);
+    position: absolute;
+  }
+  .mn_body{
+    height: 80%;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    z-index: 0;
+  }
+  
+  .mypic{
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .intr_sbttl{
+    width: 100%;
+    margin: 0 0 1rem 0;
+    font-size: 1.4em;
+  }
+  
+  .main_ttl{
+    width: 100%;
+    margin: 0 0 1.8rem 0;
+    font-size: 2.3em;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .abt_me{
+    width: 100%;
+    font-size: 1.3em;
+    line-height: 30px;
+    margin: 0 0 1.5rem 0;
+    color: rgb(255, 255, 255);
+  }

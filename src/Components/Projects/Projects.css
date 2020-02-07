@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat|Poppins|Nanum+Gothic|Raleway|Source+Sans+Pro|Work+Sans|Playfair+Display&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .3s ease;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.projects{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    /* background: #311E25; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black 2px; */
+
+}
+/* Everything below is tailored for the
+project cards */
+.proj{
+    width: 100%;
+    /* border: solid red 2px; */
+    background: rgba(190, 190, 190, 0);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+
+/* Intro Container: The intro container holding the snapshot
+of the project and the tags relate to it */
+.proj .int{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.proj .int h1{
+    min-width: 100px;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfar Display', serif;
+    font-size: 5vw;
+    text-align: center;
+    color: black
+    /* border: solid rgb(30, 121, 241) 2px; */
+}
+.proj .int h1 .num{
+    font-family: 'Playfair Display', serif;
+}
+.proj .int .snap{
+    width: 100%;
+    max-height: auto;
+    max-width: 100%;
+    /* border: solid rgb(30, 121, 241) 2px; */
+}
+.proj .int .snap img{
+    width: 100%;
+    /* border-radius: 30px; */
+}
+
+.proj .int .tagsbox{
+    width: 100%;
+    min-height: 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    border: solid blue 2px;
+}
+.proj .int .tagsbox .title{
+    height: 7vh;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border: none;
+}
+.proj .int .tags{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.proj .int .tagsbox .tag{
+    height: fit-content;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(180, 180, 180);
+    padding: 5px 10px 5px 10px;
+    border: solid rgb(180, 180, 180) 4px;
+    border-radius: 5px;
+    margin: 4px;
+}
+.proj .int .tagsbox .tag:hover{
+    color: rgb(255, 83, 4);
+    border-color: rgb(255, 83, 4);
+    ;
+}
+
+
+/* About Container: The about container describing the
+project */
+.proj .abt{
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+    /* box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.226); */
+}
+.proj .abt:hover{
+    background: rgb(255, 79, 9);
+}
+.proj .abt h1{
+    min-height: 5vh;
+    color: black;
+    /* border: solid blue 2px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 400px;
+    font-size: 2.5rem;
+}
+.proj .abt p{
+    width: 70%;
+    height: 30vh;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    line-height: 2rem;
+    text-align: center;
+    /* border: solid blue 2px; */
+}
+
+/*Design Container: The design container that outlines and
+guides the reader on my journey making
+the website */
+.proj .design{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.8rem;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.226);
+}
+.proj .design:hover{
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.226);
+    z-index: 1;
+}
+.proj .design h1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 400px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: solid blue 2px;
+    /* margin-bottom: 7vh; */
+}
+.proj .design .dscrpt{
+    width: 46%;
+    /* height: 100%; */
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 140%;
+    /* overflow: scroll; */
+    border: solid blue 2px;
+}
+.proj .design .pics{
+    width: 47%;
+    min-height: 50vh;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    border: solid blue 2px;
+}
+.proj .design .pics .img{
+    width: 95%;
+    height: 95%;
+    border: solid rgb(243, 55, 133) 2px;;
+    background: url("../../static/MyPhotography/ArgentinaCollection/13.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*Impact Container: The container that 
+outlines the impact my project has had
+and what I learned from it */
+.proj .impct{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 9vh;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.473);
+}
+.proj .impct:hover{
+    transform: scale(1.02);
+}
+.proj .impct h1{
+    width: 100%;
+    height: 10vh;
+    color: rgb(211, 211, 211);
+    font-family: 'Playfair Display', sans-serif;                    ;
+    font-size: 400px;
+    font-size: 2.5rem;
+    text-align: center;
+    /* border: solid blue 2px; */
+    margin-bottom: 3vh;
+}
+.proj .impct .cnt{
+    width: 94%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: solid blue 2px; */
+}
+.proj .impct .cnt p{
+    width: 50%;
+    height: 90%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+    line-height: 2rem;
+    text-align: right;
+    /* border: solid blue 2px; */
+
+}
+.proj .impct .cnt .grphic{
+    width: 40%;
+    height: 90%;
+    border: solid blue 2px;
+    background: url("../../static/MyPhotography/ArgentinaCollection/13.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/* 
+This is my test of adding a carousel to the page
+ */
+.proj .mycarousel{
+    width: 100%;
+    min-height: 60vh;
+    border: solid blue 2px;
+}

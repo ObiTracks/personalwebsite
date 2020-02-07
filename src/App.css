@@ -1,38 +1,49 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.app{
+  height: fit-content;
+  width: 100%;
+  background: rgb(0, 0, 0);
+}
+.leftside{
+  float: left;
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  background-color: rgb(216, 45, 45);
+  box-sizing: border-box;
+}
+.rightside{
+  float: left;
+  margin-left: 25%;
+  width: 75%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.box{
+  float: left;
+  width: 25%;
+  height: 25%;
+  background: rgb(12, 235, 235);
+}
+/* .lftside{
+  float: left;
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  background: #F5F5F5;
   text-align: center;
+  box-sizing: border-box;
+  border: solid rgb(109, 47, 255) 3px;
+  padding: 3% 4% 2% 4%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.rhtside{
+  width: 50%;
+  height: 100%;
+  float: right;
+  border: solid greenyellow 3px;
+} */

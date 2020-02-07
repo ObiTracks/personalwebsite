@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Nanum+Gothic|Raleway|Source+Sans+Pro|Work+Sans&display=swap');
+*{
+    padding: 0;
+}
+.projects{
+    /* height: 100vh; */
+    width: 100%;
+    background: rgb(231, 231, 231);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5vh 0 10vh 0;
+}
+
+.project_card{
+    width: 93%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:  4px;
+    box-sizing: border-box;
+    padding: 1% 1% 1% 1%;
+    background: rgb(197, 197, 197);
+}
+/* 
+    The Main Title
+*/
+.proj_title{
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+/* 
+    Preview of project images and progress work
+*/
+.proj_preview{
+    /* float: left; */
+    width: 100%;
+    height: 60vh;
+    border: solid rgb(139, 139, 139) 2px;
+    border-radius: 4px;
+    background-size: cover;
+    overflow: scroll;
+}
+.proj_img{
+    width: 100%;
+    margin: 0;
+}
+
+/* --------------------
+The box of related tech 
+and category tags
+----------------------*/
+
+.techandtags{
+    width: 100%;
+    border: solid red 3px;
+    /* overflow: scroll; */
+    /* margin-right: 3%; */
+}
+
+#technologies{
+    /* float: left; */
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 10px 0;
+}
+
+#tagsbox{
+    /* float: left; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    /* background: purple; */
+}
+.tag{
+    height: fit-content;
+    width: fit-content;
+    font-size: 1rem;
+    padding: 3px 8px 4px 8px;
+    margin: 6px 4px 6px 4px;
+    border: solid white 2px;
+}
+
+/* 
+    About the project section
+*/
+.abt_sction{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border: solid red 3px;
+}
+
+.abt_sction .abt{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    border: solid rgb(51, 255, 0) 5px;
+    padding: 3px;
+}
+
+.abt_sction .abt .dscrpt{
+    flex-grow: 1;
+    /* height: 100%; */
+    border: solid blue 3px;    
+}
+.abt_sction .abt .glry{
+    flex-grow: 1;
+    /* height: 100%; */
+    border: solid blue 3px;
+}

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
+.home{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

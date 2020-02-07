@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+.photo_collection{
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    background: rgb(41, 41, 41);
+}
+.cell{
+    height: 33.33vh;
+    width: 25%;
+    float: left;
+    background: url("https://source.unsplash.com/random");
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 0;
+    z-index: 0;
+}
+/* #image{
+    background: url('../../static/MyPhotography/ArgentinaCollection/0.jpg');
+}
+#imag1e{
+    background: url('../../static/MyPhotography/ArgentinaCollection/1.jpg');
+}
+#image2{
+    background: url('../../static/MyPhotography/ArgentinaCollection/2.jpg');
+}
+#image3{
+    background: url('../../static/MyPhotography/ArgentinaCollection/3.jpg');
+}
+#image4{
+    background: url('../../static/MyPhotography/ArgentinaCollection/4.jpg');
+}
+#image5{
+    background: url('../../static/MyPhotography/ArgentinaCollection/5.jpg');
+}
+#image6{
+    background: url('../../static/MyPhotography/ArgentinaCollection/6.jpg');
+}
+#image7{
+    background: url('../../static/MyPhotography/ArgentinaCollection/7.jpg');
+}
+#image8{
+    background: url('../../static/MyPhotography/ArgentinaCollection/8.jpg');
+}
+#image9{
+    background: url('../../static/MyPhotography/ArgentinaCollection/9.jpg');
+}
+#image10{
+    background: url('../../static/MyPhotography/ArgentinaCollection/10.jpg');
+}
+#image11{
+    background: url('../../static/MyPhotography/ArgentinaCollection/11.jpg');
+}
+#image12{
+    background: url('../../static/MyPhotography/ArgentinaCollection/12.jpg');
+}
+#image13{
+    background: url('../../static/MyPhotography/ArgentinaCollection/13.jpg');
+}
+#image14{
+    background: url('../../static/MyPhotography/ArgentinaCollection/14.jpg');
+}
+#image15{
+    background: url('../../static/MyPhotography/ArgentinaCollection/15.jpg');
+}
+#image16{
+    background: url('../../static/MyPhotography/ArgentinaCollection/16.jpg');
+}
+#image17{
+    background: url('../../static/MyPhotography/ArgentinaCollection/17.jpg');
+}
+#image18{
+    background: url('../../static/MyPhotography/ArgentinaCollection/18.jpg');
+}
+#image19{
+    background: url('../../static/MyPhotography/ArgentinaCollection/19.jpg');
+}
+#image20{
+    background: url('../../static/MyPhotography/ArgentinaCollection/20.jpg');
+}
+#image21{
+    background: url('../../static/MyPhotography/ArgentinaCollection/21.jpg');
+}
+#image22{
+    background: url('../../static/MyPhotography/ArgentinaCollection/22.jpg');
+} */
+
+
+/*
+.cell .overlay{
+    background: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    border: solid red 3px;
+    transition: all ease 0.3s;
+}
+.cell .overlay:hover{
+    background: black;
+    opacity: 0.4;
+}
+.text{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(18, 129, 114, 0.363);
+    z-index: 0;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+h4{
+    opacity: 1;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+} */
